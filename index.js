@@ -14,6 +14,9 @@ const secondPassword = document.getElementById("secondPassword");
 // Length of the passwords. 
 let passwordLength = 15;
 
+// Ideas for adding features to the app: 
+// Add an input field where user can choose how long the password is going to be. 
+// Add a copy/paste function so users can copy by clicking on the created password. 
 
 // Function to get a random character from the characters array. 
 function getRandomCharacter() {
