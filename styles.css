@@ -1,0 +1,91 @@
+/*
+Colors: 
+background: #1C1C1C;
+
+App background: #1F2937;
+Width: 550px
+Height: 550px;
+
+Green text: 
+background: #34D399;
+
+Button: 
+background: #10B981;
+
+
+*/
+
+body {
+    display: flex;
+    background-color: #1C1C1C;
+    color: #fff;
+    font-family: Inter, sans-serif;
+}
+.green-text {
+    color: #34D399;
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+.text-container {
+    margin-left: 80px;
+    margin-top: 75px;
+    
+}
+.generate-password-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    margin: 0 auto;
+}
+button {
+    width: 175px;
+    
+    height: 40px;
+    padding: 6px;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #10B981;
+    color: #fff;
+}
+
+hr {
+    background-color: #2F3E53;
+    width: 446px;
+    height: 1px;
+    border: none;
+    margin-top: 40px;
+}
+
+.output-container {
+    display: flex;
+    width: 446px;
+    flex-direction: row;
+}
+
+.password1 {
+    margin-left: 80px;
+}
+.password2 {
+    margin-left: 10px;
+}
+
+.password1, .password2 {
+    width: 211px;
+    height: 39px;
+    background-color: #2F3E53;
+    border-radius: 6px;
+}
+
+.password-output {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0.5;
+    text-align: center;
+    color: #10B981;
+}
